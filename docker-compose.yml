@@ -151,12 +151,22 @@ services:
    
 volumes:
   hadoop_namenode:
+    external: false
   hadoop_datanode:
+    external: false
   hadoop_historyserver:
+    external: false
   nifi_config:
+    external: false
   nifi_state:
+    external: false
   zoo_data:
+    external: false
   zoo_datalog:
+    external: false
   kafka1:
+    external: false
   kafka2:
+    external: false
   kafka3:
+    external: false
