@@ -78,8 +78,8 @@ services:
     volumes:
       - nifi_config:/opt/nifi/nifi-current/conf
       - nifi_state:/opt/nifi/nifi-current/state
-      - ./core-site.xml:/opt/nifi/nifi-current/conf/core-site.xml
-      - ./hdfs-site.xml:/opt/nifi/nifi-current/conf/hdfs-site.xml
+      - ./NIFI_CON/core-site.xml:/opt/nifi/nifi-current/conf/core-site.xml
+      - ./NIFI_CON/hdfs-site.xml:/opt/nifi/nifi-current/conf/hdfs-site.xml
     depends_on:
       - "zookeeper"
 #Kafka
